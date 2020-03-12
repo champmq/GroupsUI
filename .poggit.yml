@@ -4,5 +4,5 @@ branches:
 - master
 projects:
   GroupsUI:
-    path: ""
+    path: "https://github.com/ChampOfGames/GroupsUI/blob/master/GroupsUI.png"
 ...
