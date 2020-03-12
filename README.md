@@ -11,6 +11,10 @@ Manage Groups with an UI.
 
 Just open an [issue](https://github.com/ChampOfGames/GroupsUI/issues).
 
+## Dependencies
+ - PurePerms
+ - PureChat
+ - FormAPI
 
 ## Picture
 
