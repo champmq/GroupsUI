@@ -1,5 +1,5 @@
 name: GroupsUI
-main: GroupsUI\Main
+main: ChampOfGames\GroupsUI\Main
 author: ChampOfGames
 version: 1.0.0
 api: 3.0.0
@@ -7,4 +7,5 @@ commands:
   groupsui:
     description: Manage Groups with an UI
     usage: /groupsui
+
     
