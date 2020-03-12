@@ -7,3 +7,4 @@ commands:
   groupsui:
     description: Manage Groups with an UI
     usage: /groupsui
+    
