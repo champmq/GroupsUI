@@ -3,10 +3,13 @@ main: ChampOfGames\GroupsUI\Main
 author: ChampOfGames
 version: 1.0.0
 api: 3.0.0
-virion: FormAPI
+libs:
+  format: virion
+  vendor: raw
+  src: https://poggit.pmmp.io/r/78472/libasynql.phar
+  
+  
 commands:
   groupsui:
     description: Manage Groups with an UI
     usage: /groupsui
-
-    
