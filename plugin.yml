@@ -3,6 +3,7 @@ main: ChampOfGames\GroupsUI\Main
 author: ChampOfGames
 version: 1.0.0
 api: 3.0.0
+virion: FormAPI
 commands:
   groupsui:
     description: Manage Groups with an UI
