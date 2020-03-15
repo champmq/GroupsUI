@@ -1,14 +1,7 @@
 # GroupsUI
-[![](https://poggit.pmmp.io/shield.state/GroupsUI)](https://poggit.pmmp.io/p/GroupsUI)
 <a href="https://poggit.pmmp.io/p/GroupsUI"><img src="https://poggit.pmmp.io/shield.state/GroupsUI"></a>
-
-[![](https://poggit.pmmp.io/shield.api/GroupsUI)](https://poggit.pmmp.io/p/GroupsUI)
 <a href="https://poggit.pmmp.io/p/GroupsUI"><img src="https://poggit.pmmp.io/shield.api/GroupsUI"></a>
-
-[![](https://poggit.pmmp.io/shield.dl.total/GroupsUI)](https://poggit.pmmp.io/p/GroupsUI)
 <a href="https://poggit.pmmp.io/p/GroupsUI"><img src="https://poggit.pmmp.io/shield.dl.total/GroupsUI"></a>
-
-[![](https://poggit.pmmp.io/shield.dl/GroupsUI)](https://poggit.pmmp.io/p/GroupsUI)
 <a href="https://poggit.pmmp.io/p/GroupsUI"><img src="https://poggit.pmmp.io/shield.dl/GroupsUI"></a>
 
 
