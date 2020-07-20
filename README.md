@@ -11,6 +11,10 @@
  - Add/Remove Permission from a group
  - Change the group of an online player
 
+## Permissions
+ - gropsui.use (Allows to use /groupsui)
+ - Every feature in the UI depends on the permissions of PurePerms/PureChat.
+
 ## Want to report something or you have an idea?
 
 Just open an [issue](https://github.com/ChampOfGames/GroupsUI/issues) or contact me on Discord ChampOfGames#8712.

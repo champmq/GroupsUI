@@ -322,7 +322,14 @@ class Main extends PluginBase implements Listener
     {
         if ($cmd->getName() === "groupsui") {
             if ($sender instanceof Player) {
-                $this->openGroupUI($sender);
+                if($sender->hasPermission("groupsui.use")){
+                    $this->openGroupUI($sender);
+                }else{
+                    $sender->sendMessage("§bGroupsUI §6>> §4You are not allowed to use this command.");
+                } 
+            }else{
+                $sender->sendMessage("§bGroupsUI §6>> §4Please use the command ingame.");
+                
             }
         }
         return true;
