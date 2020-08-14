@@ -106,7 +106,7 @@ class Main extends PluginBase implements Listener
         $form = new CustomForm(function (Player $player, array $data = null) {
 
             if (isset($data[0])) {
-                $this->getServer()->getCommandMap()->dispatch($player, "addgroup $data[0]");
+                $this->getServer()->getCommandMap()->dispatch($player, "addgroup '$data[0]'");
                 $this->openGroupUI($player);
             } else {
                 $this->openGroupUI($player);
@@ -123,7 +123,7 @@ class Main extends PluginBase implements Listener
         $form = new CustomForm(function (Player $player, array $data = null) {
 
             if (isset($data[0])) {
-                $this->getServer()->getCommandMap()->dispatch($player, "rmgroup $data[0]");
+                $this->getServer()->getCommandMap()->dispatch($player, "rmgroup '$data[0]");
                 $this->openGroupUI($player);
             } else {
                 $this->openGroupUI($player);
@@ -302,8 +302,8 @@ class Main extends PluginBase implements Listener
             if (isset($data[1])) {
                 $groups = $this->glist();
                 $ps = $this->PName();
-
-                $this->getServer()->getCommandMap()->dispatch($player, "setgroup " . $ps[$data[1]] . " " . $groups[$data[2]]);
+$player = $ps[$data[1]];
+                $this->getServer()->getCommandMap()->dispatch($player, "setgroup '$player' " . $groups[$data[2]]);
                 $this->openGroupUI($player);
             } else {
                 $this->openGroupUI($player);
